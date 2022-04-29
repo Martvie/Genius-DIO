@@ -46,12 +46,12 @@ body {
     grid-area: "red";
 }
 
-.select {
+.selected {
     opacity: 0.5;
 }
 
-.blue:hover, .yellow:hover, .green:hover, .red:hover {
+/* .blue:hover, .yellow:hover, .green:hover, .red:hover {
     opacity: 0.8;
     cursor: pointer;
     transition: 0.3s;
-}
+} */
