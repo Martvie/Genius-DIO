@@ -19,7 +19,39 @@ body {
     border: 1px solid white;
     background-color: white;
     border-radius: 100%;
+    overflow: hidden;
+
     margin-top: 20px;
     width: 500px;
     height: 500px;
+}
+
+.blue {
+    background-color: rgb(55, 55, 231);
+    grid-area: "blue";
+}
+
+.yellow {
+    background-color: rgb(255, 255, 50);
+    grid-area: "yellow";
+}
+
+.green {
+    background-color: rgb(53, 212, 53);
+    grid-area: "green";
+}
+
+.red {
+    background-color: rgb(230, 38, 38);
+    grid-area: "red";
+}
+
+.select {
+    opacity: 0.5;
+}
+
+.blue:hover, .yellow:hover, .green:hover, .red:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
 }
